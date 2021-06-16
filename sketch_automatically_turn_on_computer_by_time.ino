@@ -9,8 +9,8 @@
 #define DEBUG false
 
 //ON TIME 9:45
-const int turn_on_hours = 18;
-const int turn_on_minutes = 26;
+const int turn_on_hours = 9;
+const int turn_on_minutes = 45;
 
 
 iarduino_RTC time(RTC_DS1302,RST_PIN, CLK_PIN, DAT_PIN);
